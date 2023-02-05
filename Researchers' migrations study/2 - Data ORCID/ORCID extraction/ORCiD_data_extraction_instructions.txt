@@ -1,0 +1,24 @@
+ESTRARRE DATI ORCID
+
+Scarica file .tar.gz dal sito: https://orcid.figshare.com/articles/dataset/ORCID_Public_Data_File_2021/16750535
+
+Mettilo in una directory comoda e con poca roba dentro
+
+Apri cmd di windows, metti la working directory giusta ("cd ...\...")
+
+Esegui il comando "tar -xzf ORCID_2021_10_activities_NUMERO.tar.gz", questo ti crea una cartella con lo stesso nome con tutto unzippato.
+Per controllare come sta andando puoi vedere quante directory ci sono nella nuova cartella, te le estrae in ordine abbastanza a caso, ma in totale sono 100.
+Ha finito quando ti comparirà una nuova riga sulla cmd di windows, sulla quale potrai scrivere nuovi comandi.
+
+Una volta finita l'estrazione apri "ORCiD_data_extractor_final", modifica i numeri in nel nome della cartelle e nel nome del file in output (entrambi a inizio codice) e lancia
+
+Hai una simpatica progressbar, in mezzo al codice se ci sono file corrotti su cui non riesce a lavorare. Se ci sono warning salvati da una parte quei files che poi ci si dovrà lavorare; altrimenti hai finito
+
+SE CI SONO FILES CORROTTI
+Controlla nella cartella tar.gz se sono corrotti in partenza o se sono stati estratti male
+
+Se sono stati estratti male valuta te se estrarli manualmente uno ad uno e runnare "ORCiD_data_file_adder" o se riestrarre tutto e reiniziare da capo
+
+Se sono corrotti in partenza salvati l'ORCiD e runna "ORCID_data_user_remover"
+
+SCIAU

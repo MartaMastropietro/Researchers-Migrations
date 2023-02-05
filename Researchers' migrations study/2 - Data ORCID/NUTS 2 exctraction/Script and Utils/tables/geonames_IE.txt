@@ -1,0 +1,4 @@
+"country.code", "postal.code", "admin.name1", "admin.name2", "admin.name3"
+"IE", "H91","northern and western", "IE04", "galway"
+"IE", "T12","southern", "IE05", "cork"
+"IE", "D01","eastern and midland", "IE05", "dublin"
